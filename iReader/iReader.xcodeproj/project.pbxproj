@@ -15,6 +15,16 @@
 		5478CAB61CF29DEF007FA5F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5478CAB41CF29DEF007FA5F5 /* LaunchScreen.storyboard */; };
 		5478CAC11CF29DEF007FA5F5 /* iReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5478CAC01CF29DEF007FA5F5 /* iReaderTests.m */; };
 		5478CACC1CF29DEF007FA5F5 /* iReaderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5478CACB1CF29DEF007FA5F5 /* iReaderUITests.m */; };
+		5478CADE1CF29EED007FA5F5 /* BookCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5478CADD1CF29EED007FA5F5 /* BookCollectionView.m */; };
+		5478CAE21CF2A06C007FA5F5 /* BookCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5478CAE11CF2A06C007FA5F5 /* BookCell.m */; };
+		5478CAE61CF2C942007FA5F5 /* UIView+AutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5478CAE51CF2C942007FA5F5 /* UIView+AutoLayout.m */; };
+		5478CAE81CF2D135007FA5F5 /* books.json in Resources */ = {isa = PBXBuildFile; fileRef = 5478CAE71CF2D135007FA5F5 /* books.json */; };
+		5478CAEB1CF2D19E007FA5F5 /* ViewDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5478CAEA1CF2D19E007FA5F5 /* ViewDataManager.m */; };
+		5478CAF11CF2DEC1007FA5F5 /* BooksModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5478CAF01CF2DEC1007FA5F5 /* BooksModel.m */; };
+		5478CAFE1CF2ECDF007FA5F5 /* BooksCollectionViewCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5478CAFD1CF2ECDF007FA5F5 /* BooksCollectionViewCellModel.m */; };
+		5478CB011CF2EDA3007FA5F5 /* BooksViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5478CB001CF2EDA3007FA5F5 /* BooksViewModel.m */; };
+		5478CB041CF305EB007FA5F5 /* BookReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5478CB031CF305EB007FA5F5 /* BookReusableView.m */; };
+		A675758F3106A2FAAA74D6F3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ACBA10AE3D80F16FA3DE027 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +61,27 @@
 		5478CAC71CF29DEF007FA5F5 /* iReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5478CACB1CF29DEF007FA5F5 /* iReaderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iReaderUITests.m; sourceTree = "<group>"; };
 		5478CACD1CF29DEF007FA5F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5478CADC1CF29EED007FA5F5 /* BookCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookCollectionView.h; sourceTree = "<group>"; };
+		5478CADD1CF29EED007FA5F5 /* BookCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookCollectionView.m; sourceTree = "<group>"; };
+		5478CAE01CF2A06C007FA5F5 /* BookCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookCell.h; sourceTree = "<group>"; };
+		5478CAE11CF2A06C007FA5F5 /* BookCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookCell.m; sourceTree = "<group>"; };
+		5478CAE41CF2C942007FA5F5 /* UIView+AutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AutoLayout.h"; sourceTree = "<group>"; };
+		5478CAE51CF2C942007FA5F5 /* UIView+AutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AutoLayout.m"; sourceTree = "<group>"; };
+		5478CAE71CF2D135007FA5F5 /* books.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = books.json; sourceTree = "<group>"; };
+		5478CAE91CF2D19E007FA5F5 /* ViewDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewDataManager.h; path = ViewModel/ViewDataManager.h; sourceTree = "<group>"; };
+		5478CAEA1CF2D19E007FA5F5 /* ViewDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewDataManager.m; path = ViewModel/ViewDataManager.m; sourceTree = "<group>"; };
+		5478CAEF1CF2DEC1007FA5F5 /* BooksModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BooksModel.h; sourceTree = "<group>"; };
+		5478CAF01CF2DEC1007FA5F5 /* BooksModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BooksModel.m; sourceTree = "<group>"; };
+		5478CAFB1CF2EB56007FA5F5 /* BooksPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BooksPrefixHeader.pch; sourceTree = "<group>"; };
+		5478CAFC1CF2ECDF007FA5F5 /* BooksCollectionViewCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BooksCollectionViewCellModel.h; sourceTree = "<group>"; };
+		5478CAFD1CF2ECDF007FA5F5 /* BooksCollectionViewCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BooksCollectionViewCellModel.m; sourceTree = "<group>"; };
+		5478CAFF1CF2EDA3007FA5F5 /* BooksViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BooksViewModel.h; sourceTree = "<group>"; };
+		5478CB001CF2EDA3007FA5F5 /* BooksViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BooksViewModel.m; sourceTree = "<group>"; };
+		5478CB021CF305EB007FA5F5 /* BookReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookReusableView.h; sourceTree = "<group>"; };
+		5478CB031CF305EB007FA5F5 /* BookReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookReusableView.m; sourceTree = "<group>"; };
+		5ACBA10AE3D80F16FA3DE027 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A14E2C16227119AF216E3D6C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		B048EFFCB94AD97BD22CE641 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A675758F3106A2FAAA74D6F3 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +117,8 @@
 				5478CABF1CF29DEF007FA5F5 /* iReaderTests */,
 				5478CACA1CF29DEF007FA5F5 /* iReaderUITests */,
 				5478CAA41CF29DEF007FA5F5 /* Products */,
+				7563DDA2DAD9CF2EA88B5D65 /* Pods */,
+				AB865083173299EB74C1B76B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,8 +135,14 @@
 		5478CAA51CF29DEF007FA5F5 /* iReader */ = {
 			isa = PBXGroup;
 			children = (
+				5478CAE31CF2C942007FA5F5 /* Tools */,
+				5478CAD91CF29ECD007FA5F5 /* Model */,
+				5478CADA1CF29ECD007FA5F5 /* View */,
+				5478CADB1CF29ECD007FA5F5 /* ViewModel */,
 				5478CAA91CF29DEF007FA5F5 /* AppDelegate.h */,
 				5478CAAA1CF29DEF007FA5F5 /* AppDelegate.m */,
+				5478CAE91CF2D19E007FA5F5 /* ViewDataManager.h */,
+				5478CAEA1CF2D19E007FA5F5 /* ViewDataManager.m */,
 				5478CAAC1CF29DEF007FA5F5 /* ViewController.h */,
 				5478CAAD1CF29DEF007FA5F5 /* ViewController.m */,
 				5478CAAF1CF29DEF007FA5F5 /* Main.storyboard */,
@@ -110,6 +150,7 @@
 				5478CAB41CF29DEF007FA5F5 /* LaunchScreen.storyboard */,
 				5478CAB71CF29DEF007FA5F5 /* Info.plist */,
 				5478CAA61CF29DEF007FA5F5 /* Supporting Files */,
+				5478CAFB1CF2EB56007FA5F5 /* BooksPrefixHeader.pch */,
 			);
 			path = iReader;
 			sourceTree = "<group>";
@@ -117,6 +158,7 @@
 		5478CAA61CF29DEF007FA5F5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5478CAE71CF2D135007FA5F5 /* books.json */,
 				5478CAA71CF29DEF007FA5F5 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -140,6 +182,73 @@
 			path = iReaderUITests;
 			sourceTree = "<group>";
 		};
+		5478CAD91CF29ECD007FA5F5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5478CAEF1CF2DEC1007FA5F5 /* BooksModel.h */,
+				5478CAF01CF2DEC1007FA5F5 /* BooksModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5478CADA1CF29ECD007FA5F5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5478CADF1CF2A053007FA5F5 /* Cell */,
+				5478CADC1CF29EED007FA5F5 /* BookCollectionView.h */,
+				5478CADD1CF29EED007FA5F5 /* BookCollectionView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5478CADB1CF29ECD007FA5F5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5478CAFC1CF2ECDF007FA5F5 /* BooksCollectionViewCellModel.h */,
+				5478CAFD1CF2ECDF007FA5F5 /* BooksCollectionViewCellModel.m */,
+				5478CAFF1CF2EDA3007FA5F5 /* BooksViewModel.h */,
+				5478CB001CF2EDA3007FA5F5 /* BooksViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5478CADF1CF2A053007FA5F5 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				5478CAE01CF2A06C007FA5F5 /* BookCell.h */,
+				5478CAE11CF2A06C007FA5F5 /* BookCell.m */,
+				5478CB021CF305EB007FA5F5 /* BookReusableView.h */,
+				5478CB031CF305EB007FA5F5 /* BookReusableView.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		5478CAE31CF2C942007FA5F5 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				5478CAE41CF2C942007FA5F5 /* UIView+AutoLayout.h */,
+				5478CAE51CF2C942007FA5F5 /* UIView+AutoLayout.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		7563DDA2DAD9CF2EA88B5D65 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A14E2C16227119AF216E3D6C /* Pods.debug.xcconfig */,
+				B048EFFCB94AD97BD22CE641 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AB865083173299EB74C1B76B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5ACBA10AE3D80F16FA3DE027 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +256,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5478CAD01CF29DEF007FA5F5 /* Build configuration list for PBXNativeTarget "iReader" */;
 			buildPhases = (
+				26A2A3C2FEFBB49D45D861FA /* Check Pods Manifest.lock */,
 				5478CA9F1CF29DEF007FA5F5 /* Sources */,
 				5478CAA01CF29DEF007FA5F5 /* Frameworks */,
 				5478CAA11CF29DEF007FA5F5 /* Resources */,
+				49D536DA8F30771992BBBFFD /* Embed Pods Frameworks */,
+				A2B2A812FC0B9BDE6D7A9983 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,6 +355,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5478CAE81CF2D135007FA5F5 /* books.json in Resources */,
 				5478CAB61CF29DEF007FA5F5 /* LaunchScreen.storyboard in Resources */,
 				5478CAB31CF29DEF007FA5F5 /* Assets.xcassets in Resources */,
 				5478CAB11CF29DEF007FA5F5 /* Main.storyboard in Resources */,
@@ -265,14 +378,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		26A2A3C2FEFBB49D45D861FA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		49D536DA8F30771992BBBFFD /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2B2A812FC0B9BDE6D7A9983 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5478CA9F1CF29DEF007FA5F5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5478CAAE1CF29DEF007FA5F5 /* ViewController.m in Sources */,
+				5478CAE61CF2C942007FA5F5 /* UIView+AutoLayout.m in Sources */,
+				5478CADE1CF29EED007FA5F5 /* BookCollectionView.m in Sources */,
 				5478CAAB1CF29DEF007FA5F5 /* AppDelegate.m in Sources */,
+				5478CAE21CF2A06C007FA5F5 /* BookCell.m in Sources */,
+				5478CB041CF305EB007FA5F5 /* BookReusableView.m in Sources */,
 				5478CAA81CF29DEF007FA5F5 /* main.m in Sources */,
+				5478CAEB1CF2D19E007FA5F5 /* ViewDataManager.m in Sources */,
+				5478CB011CF2EDA3007FA5F5 /* BooksViewModel.m in Sources */,
+				5478CAFE1CF2ECDF007FA5F5 /* BooksCollectionViewCellModel.m in Sources */,
+				5478CAF11CF2DEC1007FA5F5 /* BooksModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,23 +580,31 @@
 		};
 		5478CAD11CF29DEF007FA5F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A14E2C16227119AF216E3D6C /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/iReader/BooksPrefixHeader.pch";
 				INFOPLIST_FILE = iReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yuntai.iReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT} /**";
 			};
 			name = Debug;
 		};
 		5478CAD21CF29DEF007FA5F5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B048EFFCB94AD97BD22CE641 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/iReader/BooksPrefixHeader.pch";
 				INFOPLIST_FILE = iReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yuntai.iReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT} /**";
 			};
 			name = Release;
 		};
@@ -498,6 +675,7 @@
 				5478CAD21CF29DEF007FA5F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5478CAD31CF29DEF007FA5F5 /* Build configuration list for PBXNativeTarget "iReaderTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +684,7 @@
 				5478CAD51CF29DEF007FA5F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5478CAD61CF29DEF007FA5F5 /* Build configuration list for PBXNativeTarget "iReaderUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +693,7 @@
 				5478CAD81CF29DEF007FA5F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
